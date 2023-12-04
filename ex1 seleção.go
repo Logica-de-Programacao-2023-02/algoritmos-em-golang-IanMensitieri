@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-	// Solicitar os dois números inteiros ao usuário
 	fmt.Print("Digite o primeiro número inteiro: ")
 	var num1 int
 	fmt.Scanln(&num1)
@@ -14,7 +13,6 @@ func main() {
 	var num2 int
 	fmt.Scanln(&num2)
 
-	// Verificar qual número é maior
 	var maior int
 	if num1 > num2 {
 		maior = num1
@@ -22,6 +20,5 @@ func main() {
 		maior = num2
 	}
 
-	// Exibir o resultado
 	fmt.Printf("O maior número é: %d\n", maior)
 }
